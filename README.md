@@ -1,4 +1,9 @@
 # Analysis of an anonymized sample of the National Health Fund data on the occurrence of ischemic stroke
+
+There are two files in this repository: :v:
+* [Analysis_of_stroke_occurrences(plotly_visualizations).ipynb - Link to Google Colab](https://colab.research.google.com/drive/1Yn3vBmymkZj0rSCD8Wj-bvJQcAw2ehXn?usp=sharing)
+* [Analysis_of_stroke_occurrences(matplotlib_visualizations).ipynb - Link to Google Colab](https://colab.research.google.com/drive/1eZ4wrMlIC0K01a2RsZx-hbGxfjPHrADM?usp=sharing)
+
 ## Data was downloaded from the website [dane.gov.pl](https://dane.gov.pl/pl/dataset/1711,zanonimizowana-probka-danych-nfz-dotyczaca-wystapienia-udaru-niedokrwiennego-mozgu)
 
 The National Health Fund has reporting data provided by medical entities. The dataset concerns reimbursed services and medications for patients, some of whom have suffered from ischemic stroke. The collection was prepared in such a way that the data on services and medications come from the period of two years (t, t + 1), while the information on the occurrence of a stroke concerns the period of the next two years (t + 2, t + 3). The provided data set consists of 6 tables containing actual, anonymised data of the National Health Fund. The "patients" table (500,000 IDs) contains data defining whether a patient had an ischemic stroke over the two-year period under review. In order to ensure anonymization of the data, it was not stated what period the data came from. The remaining tables contain information on the history of services and the fulfillment of prescriptions for patients in the table "patients" from the previous two years.
