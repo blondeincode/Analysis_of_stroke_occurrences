@@ -10,7 +10,9 @@ There are two files in this repository:
 
 The National Health Fund has reporting data provided by medical entities. The dataset concerns reimbursed services and medications for patients, some of whom have suffered from ischemic stroke. The collection was prepared in such a way that the data on services and medications come from the period of two years (t, t + 1), while the information on the occurrence of a stroke concerns the period of the next two years (t + 2, t + 3). The provided data set consists of 6 tables containing actual, anonymised data of the National Health Fund. The "patients" table (500,000 IDs) contains data defining whether a patient had an ischemic stroke over the two-year period under review. In order to ensure anonymization of the data, it was not stated what period the data came from. The remaining tables contain information on the history of services and the fulfillment of prescriptions for patients in the table "patients" from the previous two years.
 
-## Description of individual tables:
+<details>
+   <summary><b>Description of individual tables</b></summary>
+   
 1. patients - information on the occurrence of first-time ischemic stroke in the analyzed time period (2 years). Patients who experienced ischemic stroke before the analyzed time interval were excluded from the analysis. It consists of the following columns:
 
    a) PATIENT_ID - unique identifier of the patient.
@@ -62,6 +64,7 @@ The National Health Fund has reporting data provided by medical entities. The da
    c) GENDER - patient's gender.
 
    d) DISTRICT_TERRITORY - the territorial code of the patient's place of residence, presented to the poviat level.
+</details>
 
 ## The analysis was conducted in order to answer the following questions:
 
